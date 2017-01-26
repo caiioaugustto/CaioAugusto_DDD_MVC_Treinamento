@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{977DB996-87C5-4AE5-991B-B3C7EC6AF9E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{1010FC4B-8A17-4086-9104-059319F9C4F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{BCCCE7C5-99F2-4354-AD2A-3CF4E956D722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{79202428-1D89-43A3-BB7C-74CAC2D1FA4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{FC9C2A7A-6F60-4D72-8CD8-B6BAFCCABC60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{5750861F-6834-4585-8E7D-659F1396CC97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{4AB2ABAE-58F4-4043-A9F9-FC726CE5B52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamento.Domain", "src\CaioAugusto.DDDMVCTreinamento.Domain\CaioAugusto.DDDMVCTreinamento.Domain.csproj", "{5B2D6161-0B65-4A6A-A638-F14112F98BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamento.Infra.Data", "src\CaioAugusto.DDDMVCTreinamento.Infra.Data\CaioAugusto.DDDMVCTreinamento.Infra.Data.csproj", "{374E8ED2-60E3-4B4B-81A9-27D105275884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamento.UI.Site", "src\CaioAugusto.DDDMVCTreinamento.UI.Site\CaioAugusto.DDDMVCTreinamento.UI.Site.csproj", "{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B2D6161-0B65-4A6A-A638-F14112F98BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2D6161-0B65-4A6A-A638-F14112F98BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2D6161-0B65-4A6A-A638-F14112F98BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2D6161-0B65-4A6A-A638-F14112F98BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374E8ED2-60E3-4B4B-81A9-27D105275884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374E8ED2-60E3-4B4B-81A9-27D105275884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374E8ED2-60E3-4B4B-81A9-27D105275884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374E8ED2-60E3-4B4B-81A9-27D105275884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5750861F-6834-4585-8E7D-659F1396CC97} = {FC9C2A7A-6F60-4D72-8CD8-B6BAFCCABC60}
+		{4AB2ABAE-58F4-4043-A9F9-FC726CE5B52B} = {FC9C2A7A-6F60-4D72-8CD8-B6BAFCCABC60}
+		{5B2D6161-0B65-4A6A-A638-F14112F98BB7} = {79202428-1D89-43A3-BB7C-74CAC2D1FA4C}
+		{374E8ED2-60E3-4B4B-81A9-27D105275884} = {5750861F-6834-4585-8E7D-659F1396CC97}
+		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7} = {977DB996-87C5-4AE5-991B-B3C7EC6AF9E7}
+	EndGlobalSection
+EndGlobal
