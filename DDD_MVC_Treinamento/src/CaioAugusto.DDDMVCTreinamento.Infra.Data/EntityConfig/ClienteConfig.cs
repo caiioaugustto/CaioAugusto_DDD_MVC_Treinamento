@@ -10,10 +10,13 @@ namespace CaioAugusto.DDDMVCTreinamento.Infra.Data.EntityConfig
     {
         public ClienteConfig()
         {
-            HasKey(a => a.ClienteId);
+            HasKey(a => a.Id);
 
             //Caso estivesse duas PK
             //HasKey(a => new { a.ClienteId, a.CPF });
+
+            Property(c => c.Id)
+                .HasColumnName("ClienteId");
 
             Property(a => a.Nome)
                 .IsRequired()

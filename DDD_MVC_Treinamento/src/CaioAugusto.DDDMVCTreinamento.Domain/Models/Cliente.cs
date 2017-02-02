@@ -4,16 +4,8 @@ using System.Collections.Generic;
 
 namespace CaioAugusto.DDDMVCTreinamento.Domain.Models
 {
-    public class Cliente
+    public class Cliente : Entity
     {
-        public Cliente()
-        {
-            ClienteId = Guid.NewGuid();
-            Enderecos = new List<Endereco>();
-        }
-
-        public Guid ClienteId { get; set; }
-
         public string Nome { get; set; }
         
         public string CPF { get; set; }

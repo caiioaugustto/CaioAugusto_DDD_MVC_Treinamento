@@ -12,7 +12,10 @@ namespace CaioAugusto.DDDMVCTreinamento.Infra.Data.EntityConfig
     {
         public EnderecoConfig()
         {
-            HasKey(a => a.EnderecoId);
+            HasKey(a => a.Id);
+
+            Property(c => c.Id)
+                .HasColumnName("EnderecoId");
 
             //Caso estivesse duas PK
             //HasKey(a => new { a.ClienteId, a.CPF });

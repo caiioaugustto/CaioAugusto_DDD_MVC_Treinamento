@@ -2,15 +2,8 @@
 
 namespace CaioAugusto.DDDMVCTreinamento.Domain.Models
 {
-    public class Endereco
+    public class Endereco : Entity
     {
-        public Endereco()
-        {
-            EnderecoId = Guid.NewGuid();
-        }
-
-        public Guid EnderecoId { get; set; }
-        
         public string Logradouro { get; set; }
         
         public string Numero { get; set; }

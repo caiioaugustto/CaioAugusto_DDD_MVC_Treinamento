@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CaioAugusto.DDDMVCTreinamento.App.AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,7 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            AutoMapperConfig.RegisterMappings();    
         }
     }
 }

@@ -13,6 +13,9 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //atributos de rotas que fica encima da controller e dos métodos
+            routes.MapMvcAttributeRoutes();
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

@@ -10,3 +10,17 @@ C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioA
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.csprojResolveAssemblyReference.cache
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.dll
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\obj\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.dll.config
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Infra.Data\bin\Debug\Dapper.xml

@@ -3,3 +3,8 @@ C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioA
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.dll
 C:\Users\Estag2\Documents\Caio\DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\obj\Debug\CaioAugusto.DDDMVCTreinamento.Domain.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.Domain\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.pdb

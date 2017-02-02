@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamento.UI.Site", "src\CaioAugusto.DDDMVCTreinamento.UI.Site\CaioAugusto.DDDMVCTreinamento.UI.Site.csproj", "{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaioAugusto.DDDMVCTreinamento.App", "src\CaioAugusto.DDDMVCTreinamento.App\CaioAugusto.DDDMVCTreinamento.App.csproj", "{E9560A64-E090-400A-9A30-AD145014AD3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9560A64-E090-400A-9A30-AD145014AD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9560A64-E090-400A-9A30-AD145014AD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9560A64-E090-400A-9A30-AD145014AD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9560A64-E090-400A-9A30-AD145014AD3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +57,6 @@ Global
 		{5B2D6161-0B65-4A6A-A638-F14112F98BB7} = {79202428-1D89-43A3-BB7C-74CAC2D1FA4C}
 		{374E8ED2-60E3-4B4B-81A9-27D105275884} = {5750861F-6834-4585-8E7D-659F1396CC97}
 		{C315C25D-3061-4A30-AB1B-0BFF47FBD1D7} = {977DB996-87C5-4AE5-991B-B3C7EC6AF9E7}
+		{E9560A64-E090-400A-9A30-AD145014AD3D} = {BCCCE7C5-99F2-4354-AD2A-3CF4E956D722}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\obj\Debug\CaioAugusto.DDDMVCTreinamento.App.csprojResolveAssemblyReference.cache
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.App.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.App.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\AutoMapper.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\EntityFramework.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.Domain.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\CaioAugusto.DDDMVCTreinamento.Infra.Data.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\AutoMapper.xml
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\EntityFramework.xml
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\obj\Debug\CaioAugusto.DDDMVCTreinamento.App.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\obj\Debug\CaioAugusto.DDDMVCTreinamento.App.pdb
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\Dapper.dll
+C:\Users\Estag2\Documents\Caio\CaioAugustoDDDMVC\CaioAugusto_DDD_MVC_Treinamento\DDD_MVC_Treinamento\src\CaioAugusto.DDDMVCTreinamento.App\bin\Debug\Dapper.xml
