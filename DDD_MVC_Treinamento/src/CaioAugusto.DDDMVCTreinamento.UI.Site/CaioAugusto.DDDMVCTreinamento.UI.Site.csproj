@@ -165,7 +165,9 @@
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Filters\ClaimsAuthorizeAttribute.cs" />
     <Compile Include="Filters\GlobalErrorHandler.cs" />
+    <Compile Include="Filters\PermissionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -238,8 +240,7 @@
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
-    <Content Include="Views\Clientes\View.cshtml" />
-    <Content Include="Views\Shared\AcessDenied.cshtml" />
+    <Content Include="Views\Shared\AccessDenied.cshtml" />
     <Content Include="Views\Shared\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>

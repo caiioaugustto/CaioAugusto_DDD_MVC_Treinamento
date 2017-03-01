@@ -4,9 +4,13 @@ using System.Web.Mvc;
 using CaioAugusto.DDDMVCTreinamento.App.ViewModels;
 using CaioAugusto.DDDMVCTreinamento.App.Services;
 using CaioAugusto.DDDMVCTreinamento.App.Interfaces;
+using CaioAugusto.DDDMVCTreinamento.UI.Site.Filters;
 
 namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
 {
+    //ModuloCliente (Claims/Permissões) - AD, ED, LT, VI, EX
+
+    [Authorize]
     [RoutePrefix("modulo-administrativo")]
     public class ClientesController : Controller
     {
@@ -17,12 +21,14 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             _clienteAppService = new ClienteAppService();
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "LT")]
         [Route("listar-clientes")]
         public ActionResult Index()
         {
             return View(_clienteAppService.ObterAtivos());
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "VI")]
         [Route("{id:guid}/detalhe-cliente")]
         public ActionResult Details(Guid? id)
         {
@@ -40,12 +46,14 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             return View(clienteViewModel);
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "AD")]
         [Route("novo-cliente")]
         public ActionResult Create()
         {
             return View();
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "AD")]
         [Route("novo-cliente")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -60,6 +68,7 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             return View(clienteEnderecoViewModel);
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "ED")]
         [Route("{id:guid}/editar-cliente")]
         public ActionResult Edit(Guid? id, string str)
         {
@@ -76,6 +85,7 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             return View(clienteViewModel);
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "ED")]
         [Route("{id:guid}/editar-cliente")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -89,6 +99,7 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             return View(clienteViewModel);
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "EX")]
         [Route("{id:guid}/excluir-cliente")]
         public ActionResult Delete(Guid? id)
         {
@@ -105,6 +116,7 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Controllers
             return View(clienteViewModel);
         }
 
+        //[ClaimsAuthorize("ModuloCliente", "EX")]
         [Route("{id:guid}/excluir-cliente")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

@@ -8,9 +8,12 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Filters
 {
     public class GlobalErrorHandler : ActionFilterAttribute
     {
+        //OnActionExecuted é quando já aconteceu o erro.
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
-            if(filterContext.Exception != null)
+            //FilterContext consegue pegar todaas as informações do erro, ip da máquina, camada que deu erro, controller, usuário e etc
+
+            if (filterContext.Exception != null)
             {
                 //Registre o filtro na FilterConfig
                 // Manipular a EX
@@ -21,6 +24,9 @@ namespace CaioAugusto.DDDMVCTreinamento.UI.Site.Filters
 
                 // SEMPRE DE FORMA ASYNC
 
+                //FilterContext = true, fala para o seu iis que você tratou a exceção
+
+                //Adicione o seu filtro no filter de appStart
                 filterContext.ExceptionHandled = true;
             }
 

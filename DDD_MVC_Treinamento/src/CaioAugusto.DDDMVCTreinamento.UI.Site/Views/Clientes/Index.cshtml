@@ -1,14 +1,22 @@
-﻿@model IEnumerable<CaioAugusto.DDDMVCTreinamento.App.ViewModels.ClienteViewModel>
+﻿@using CaioAugusto.DDDMVCTreinamento.UI.Site.Filters
+
+@model IEnumerable<CaioAugusto.DDDMVCTreinamento.App.ViewModels.ClienteViewModel>
+
+<h2>Listagem de Clientes</h2>
+
+<br />
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listagem de Clientes";
 }
 
-<h2>Index</h2>
+@if (this.IfClaim("ModuloCliente", "AD"))
+{
+    <p>
+        @Html.ActionLink("Novo Cliente", "Create")
+    </p>
+}
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -26,26 +34,27 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CPF)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataNascimento)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }).IfClaimHelper("ModuloCliente", "ED") |
+                @Html.ActionLink("Detalhes", "Details", new { id = item.Id }).IfClaimHelper("ModuloCliente", "LT") |
+                @Html.ActionLink("Excluir", "Delete", new { id = item.Id }).IfClaimHelper("ModuloCliente", "EX")
+            </td>
+        </tr>
+    }
 
 </table>

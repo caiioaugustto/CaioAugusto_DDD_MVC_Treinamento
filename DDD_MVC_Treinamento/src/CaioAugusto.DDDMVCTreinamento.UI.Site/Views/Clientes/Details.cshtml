@@ -1,4 +1,6 @@
-﻿@model CaioAugusto.DDDMVCTreinamento.App.ViewModels.ClienteViewModel
+﻿@using CaioAugusto.DDDMVCTreinamento.UI.Site.Filters
+
+@model CaioAugusto.DDDMVCTreinamento.App.ViewModels.ClienteViewModel
 
 @{
     ViewBag.Title = "Details";
@@ -45,6 +47,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" }).IfClaimHelper("ModuloCliente", "ED") |
+    @Html.ActionLink("Voltar", "Index", new { @class = "btn btn-default" }).IfClaimHelper("ModuloCliente", "LT")
 </p>

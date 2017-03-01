@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-         
+
 namespace CaioAugusto.DDDMVCTreinamento.Infra.Data.Repository
 {
-   public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
+    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
-       protected DDDMVCTreinamentoContext Db;
-       protected DbSet<TEntity> DbSet;
+        protected DDDMVCTreinamentoContext Db;
+        protected DbSet<TEntity> DbSet;
 
         protected Repository()
         {
@@ -49,7 +49,7 @@ namespace CaioAugusto.DDDMVCTreinamento.Infra.Data.Repository
 
         public virtual void Remover(Guid id)
         {
-            var obj = new TEntity() {Id = id};
+            var obj = new TEntity() { Id = id };
             DbSet.Remove(obj);
             SaveChanges();
         }
